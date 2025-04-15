@@ -34,5 +34,3 @@ mongodb-database-backups/
 # coverage
 coverage/
 
-package-lock.json
-package.json
