@@ -26,7 +26,7 @@ const Editor = ({ socketRef, roomId, onCodeChange }) => {
         setResult('Running...');
         
         axios
-            .post(`http://localhost:5000/${language}`, { runcode })
+            .post(`https://codesync-hrje.onrender.com/${language}`, { runcode })
             .then(({ data }) => {
                 setResult(data);
                 setIsRunning(false);
