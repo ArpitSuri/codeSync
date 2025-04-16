@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const http = require('http');
 const { Server } = require('socket.io');
-const ACTIONS = require('../frontend/src/Actions.js');
+const ACTIONS = require('./Action.js');
 const cors = require('cors');
 const { c, cpp, node, python, java } = require('compile-run');
 

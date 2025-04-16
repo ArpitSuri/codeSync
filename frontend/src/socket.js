@@ -8,5 +8,5 @@ export const initSocket =async ()=>{
         transports:['websocket'],
         
     };
-    return io("https://code-sync-blush.vercel.app/" , options);
+    return io("https://codesync-hrje.onrender.com" , options);
 }
